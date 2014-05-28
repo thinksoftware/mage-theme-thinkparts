@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Think_ThinkBase>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Think_ThinkBase>
+    </modules>
+</config>

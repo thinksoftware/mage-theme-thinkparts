@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+
+	<modules>
+		<Think_ThinkBase>
+			<version>0.1.0</version>
+		</Think_ThinkBase>
+	</modules>
+	
+	 <global>
+	 	<blocks>
+    		<Think>
+				<class>ThinkBase_Setup_Block</class>
+    		</Think>
+    	</blocks>
+    	<resources>
+    	    <thinkbase_setup>
+  	        <setup>
+  	          <module>Think_ThinkBase</module>
+			  			<class>Mage_Eav_Model_Entity_Setup</class>
+						</setup>
+						<connection>
+			  			<use>default_setup</use>
+						</connection>
+    	    </thinkbase_setup>
+    	</resources>
+     </global>    
+</config>
